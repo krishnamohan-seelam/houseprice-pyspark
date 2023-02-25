@@ -58,8 +58,8 @@ Provides an overview of the directory structure(work) and files
 ├── predictions.csv  
 
 **house-prices** - directory containing training,synthentic training,testing datasets.  
-**lr_model.h5** - persisted pyspark model.  
-**pipeline_model.h5** - persisted pyspark pipeline model.  
+**lr_model.h5** - persisted pyspark model (not uploaded to github).  
+**pipeline_model.h5** - persisted pyspark pipeline model (not uploaded to github).  
 **Dockerfile**  - docker file.  
 **generate_sdv.py** - python module containing source code for generating synthentic datasets.   
 **model.py** - python module containing source code for both training and test the model.  
@@ -87,9 +87,9 @@ Provides an overview of the directory structure(work) and files
  4.On completion of the spark submit job, you should see the predictions.csv file in the local folder
 
 Below are the snapshots of running the above container image.  
-![alt text](img/spark-submit.png "spark-submit")  
+![alt text](./img/spark-submit.png "spark-submit")  
 
-![alt text](img/spark-results.png "spark-results")
+![alt text](./img/spark-results.png "spark-results")
 
 ## About
 
